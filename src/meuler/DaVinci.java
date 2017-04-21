@@ -10,7 +10,7 @@ public class DaVinci extends JPanel{
     private int auxData[] = new int [179];
     
     public DaVinci(){
-    setBackground(Color.black);
+        setBackground(Color.black);
     }
     
     @Override
@@ -31,7 +31,7 @@ public class DaVinci extends JPanel{
         }
     }
     
-    public void preparar_auxiliar(){
+    public void prepareAuxiliaryData(){
         System.arraycopy(arrayData, 0, auxData, 0, 179);
     }
     
