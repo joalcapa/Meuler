@@ -16,8 +16,7 @@ private Boolean termino=false;
 
     public AlgorithmHandler(){
         aux = 0; k = 0; typeAlgorithm = -1;
-        hilo = new Thread(this);
-        hilo.start();
+      
     }
     
     public void setOBJ(DaVinci daVinci, int typeAlgorithm){
@@ -40,7 +39,11 @@ private Boolean termino=false;
     @Override
     public void run() {
         
- 
+  if (hilo == null)
+       {
+          hilo = new Thread(this, "Reloj");
+          hilo.start();
+       }
         
     Thread hiloActual = Thread.currentThread();
        while (hilo == hiloActual)
