@@ -68,7 +68,7 @@ public class Methods extends JPanel implements MouseListener{
         if(i>0)
             ancho_m=ancho_m+59;
         
-        metodos[i]=new JLabel(new ImageIcon(getClass().getResource("img/metodo.png")));
+        metodos[i]=new JLabel(new ImageIcon(getClass().getResource("assets/metodo.png")));
         metodos[i].addMouseListener(this);
         cinta_metodos.add(metodos[i]);
         metodos[i].setBounds(0+ancho_m, 0, 60, 61);
