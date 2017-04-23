@@ -5,6 +5,30 @@ Order algorithm plotter
 
 Meuler is a Java-based project that allows you to visualize the performance of data sorting algorithms, such as the popular algorithm "Bubble", Quicksort, among others.
 
+#### Clone repository
+
+`
+$ git clone git://github.com/joalcapa/Meuler.git
+`
+
+`
+$ cd Meuler
+`
+
+### Compilation of Meuler
+
+Compilation of the project, using the file containing the main method, in order to generate the necessary ".class" files to execute Meuler without the ".jar"
+
+`
+$ javac meuler/Meuler.java
+`
+
+### Execute Meuler
+
+`
+$ java meuler/Meuler
+`
+
 ### Rendering
 
 Basically Meuler, gives the rendering power to DaVinci, so an array is drawn on the screen.
