@@ -17,7 +17,7 @@ $ cd Meuler
 
 ### Compilation of Meuler
 
-Compilation of the project, using the file containing the main method, in order to generate the necessary ".class" files to execute Meuler without the ".jar"
+Compilation of the project, using the file containing the main method, in order to generate the necessary ".class" files to execute Meuler without the ".jar", remember to add the jdk of java, to the environment variables, to recognize the command "javac".
 
 `
 $ javac meuler/Meuler.java
