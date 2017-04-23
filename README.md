@@ -9,7 +9,7 @@ Meuler is a Java-based project that allows you to visualize the performance of d
 
 Basically Meuler, gives the rendering power to DaVinci, so an array is drawn on the screen.
 
-` java
+``` java
 @Override
     public void paint(Graphics g){
         super.paint(g);
@@ -27,13 +27,13 @@ Basically Meuler, gives the rendering power to DaVinci, so an array is drawn on 
             g.drawLine(accountantMinux, ((200-arrayData[i])-4), accountantMinux, (200-arrayData[i]));
         }
     }
-`
+```
 
 ### Prosecution of the data
 
 For algorithm processing, Meuler gives AlgorithmHandler the processing power, is able to process the array, and instruct DaVinci to render the change.
 
-` java
+``` java
 for (int i = 1; i < 179; i++) {
             aux = daVinci.getDataIndex(i);
             k = i-1;
@@ -53,4 +53,4 @@ for (int i = 1; i < 179; i++) {
         } 
         isFinalize = true;
         thread = null;
-`
+```
